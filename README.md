@@ -1,7 +1,7 @@
 # ☁️ Plateforme de Diffusion de Contenu Cloud-Native
 
 **Projet Cloud & DevOps 2026 – ESAIP**  
-**Auteur :** Mathis Marsault / Axel Bonneau / Louis Maillet
+**Auteur :** Mathis Marsault / Axel Bonneau / Louis Maillet 
 **Statut CI :** ✅ Passing
 
 ---
@@ -172,6 +172,7 @@ kubectl apply -f k8s/
 ---
 
 Projet réalisé dans le cadre du module **Cloud Computing – ESAIP 2026**.
+
 
 
 
