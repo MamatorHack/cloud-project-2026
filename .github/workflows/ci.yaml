@@ -33,6 +33,9 @@ jobs:
         pip install flask==2.2.5 azure-storage-blob cachetools pyyaml
         
     - name: Run Tests
+      env:
+        # On donne une valeur bidon pour passer la vérification if not AZURE_CONNECTION_STRING
+        AZURE_STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=test;AccountKey=test;EndpointSuffix=core.windows.net"
       run: pytest
 
   # Job 2 : Construction et Publication Docker
