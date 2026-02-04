@@ -1,0 +1,6 @@
+{
+  "questions": [
+    {"q": "Comment déployer ?", "a": "Via GitHub Actions"},
+    {"q": "C'est quoi un pod ?", "a": "Une unité d'exécution K8s"}
+  ]
+}
