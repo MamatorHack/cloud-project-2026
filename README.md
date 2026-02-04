@@ -49,7 +49,7 @@ L’objectif principal était de mettre en œuvre une chaîne de production logi
 git clone https://github.com/MamatorHack/cloud-project-2026.git
 cd cloud-project-2026
 ```
-````markdown
+
 ## 2. Installation des dépendances
 
 ```bash
@@ -174,4 +174,5 @@ kubectl apply -f k8s/
 Projet réalisé dans le cadre du module **Cloud Computing & DevOps – ESAIP 2026**.
 
 ```
+
 
