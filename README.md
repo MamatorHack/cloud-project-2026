@@ -171,8 +171,7 @@ kubectl apply -f k8s/
 
 ---
 
-Projet réalisé dans le cadre du module **Cloud Computing & DevOps – ESAIP 2026**.
+Projet réalisé dans le cadre du module **Cloud Computing – ESAIP 2026**.
 
-```
 
 
