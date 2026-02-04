@@ -25,7 +25,12 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        # FIX : On installe d'abord une version de Werkzeug compatible avec Flask 2.x
+        pip install "Werkzeug<3.0.0"
+        pip install pytest pytest-mock
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        # Sécurité : on réinstalle les dépendances critiques sans upgrade pour garder Werkzeug 2.x
+        pip install flask==2.2.5 azure-storage-blob cachetools pyyaml
         
     - name: Run Tests
       run: pytest
